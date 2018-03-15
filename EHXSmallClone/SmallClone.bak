@@ -33,15 +33,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:switches
-LIBS:Untitled-cache
+LIBS:SmallClone-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "EHX Small Clone (EC 4600)"
+Date "2001-01-01"
+Rev "Rev1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -605,9 +605,9 @@ F 3 "" H 13575 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 14325 2900 2    60   ~ 0
-9V
+GND
 Text Label 12875 2900 0    60   ~ 0
-9V
+GND
 Text Label 10200 1200 3    60   ~ 0
 9V
 Text Label 10200 2225 2    60   ~ 0
@@ -1041,7 +1041,7 @@ F 3 "" H 12550 1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Label 12550 1200 3    60   ~ 0
-9V
+GND
 Text Label 15350 5200 2    60   ~ 0
 BBD_CP2
 Text Label 14425 2700 2    60   ~ 0
@@ -1062,7 +1062,7 @@ F 3 "" H 13025 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 13025 1200 3    60   ~ 0
-9V
+GND
 Wire Wire Line
 	1825 8675 1900 8675
 Wire Wire Line
